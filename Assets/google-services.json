@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "695695045189",
+    "firebase_url": "https://spaceballz-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "spaceballz",
+    "storage_bucket": "spaceballz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695695045189:android:c402125669afd729b0e92c",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Final_Project_CGD"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695695045189-fkllb0fk365b6n1k32isdu3cgisnmsu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPDb7L0kfbyP2ZM1dmevNMVnI2osD4YIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695695045189-fkllb0fk365b6n1k32isdu3cgisnmsu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
