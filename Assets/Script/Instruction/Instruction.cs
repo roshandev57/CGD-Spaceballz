@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class Instruction : MonoBehaviour
 {
@@ -36,5 +37,11 @@ public class Instruction : MonoBehaviour
         // Slide panel 2 and panel 3 to their initial positions
         panel2.DOAnchorPos(panel2StartPosition, 0.5f);
         panel3.DOAnchorPos(panel3StartPosition, 0.5f);
+    }
+
+    public void MoveToNextScene()
+    {
+        // Load the next scene
+        SceneManager.LoadScene("SelectLevel");
     }
 }
