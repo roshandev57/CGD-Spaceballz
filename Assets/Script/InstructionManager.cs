@@ -10,7 +10,7 @@ public class InstructionManager : MonoBehaviour
     public TextMeshProUGUI instructionText;
     public GameObject continueButton;
     public string[] instructions;
-    public string nextScene;
+    //public string nextScene;
 
     private int currentPage = 0;
 
@@ -26,9 +26,6 @@ public class InstructionManager : MonoBehaviour
             currentPage++;
             instructionText.text = instructions[currentPage];
         }
-        else
-        {
-            SceneManager.LoadScene(nextScene);
-        }
+        
     }
 }

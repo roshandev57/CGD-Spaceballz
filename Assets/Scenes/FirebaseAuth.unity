@@ -8871,8 +8871,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2056093198}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: RegisterScreen
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OpenRegistrationPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
